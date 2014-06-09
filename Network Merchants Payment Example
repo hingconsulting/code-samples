@@ -1,0 +1,593 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+
+
+<html>
+
+
+
+ <head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title></title>
+
+  <link href="../utilities/print.css" rel="stylesheet" media="print">
+
+  <link href="../utilities/default.css" rel="stylesheet" media="screen">
+
+  <script language="JavaScript" src="../utilities/scripts.js"></script>
+  <script language="JavaScript" src="../utilities/frmvalidation_admissions.js"></script>
+  
+  <script language="JavaScript" type="text/JavaScript">
+
+<!--
+
+function MM_swapImgRestore() { //v3.0
+
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+
+}
+
+
+
+function MM_preloadImages() { //v3.0
+
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+
+}
+
+
+
+function MM_findObj(n, d) { //v4.01
+
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+
+}
+
+
+
+function MM_swapImage() { //v3.0
+
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+
+}
+
+function goBack() {
+  window.history.go(-2);
+}
+
+
+//-->
+
+</script>
+
+  <style type="text/css">
+
+<!--
+
+.style2 {background-color: #FFFFFF}
+
+-->
+
+  </style>
+
+ </head>
+
+
+
+ <body onLoad="stripe('table1', '#fff', '#eef4de');">
+
+  <div align="center">
+
+   <?php require ('../include/header.php');?>
+
+   <table id="main" border="0" cellspacing="0" cellpadding="0">
+
+    <tr>
+
+     <td class="noprint" colspan="2">
+
+      <table border="0" cellspacing="0" cellpadding="0">
+
+       <tr>
+
+        <td><img src="../images/photos/admissions-elementary-1.jpg" width="611" height="145" alt="Elementary school"></td>
+
+        <td><a href="../home/index.shtml"><img src="../images/shared/logo2.gif" alt="" height="145" width="188" border="0"></a></td>
+
+       </tr>
+
+      </table>
+
+     </td>
+
+    </tr>
+
+    <tr height="25">
+
+     <td id="navbox" class="noprint" rowspan="3" valign="top" bgcolor="#f9f3d9" width="184">
+
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+       <tr>
+
+        <td id="navbox2" bgcolor="#c5c6c8" style="cursor:hand" onClick="window.location='http://www.sfschool.org/academics/index.shtml'" onMouseOver="this.bgColor='#e1e3e5'" onMouseOut="this.bgColor='#c5c6c8'"><a href="http://www.sfschool.org/academics/index.shtml">ACADEMICS</a></td>
+
+       </tr>
+
+       <tr height="1">
+
+        <td bgcolor="white" height="1"><img src="../images/shared/spacer.gif" alt="" height="1" width="1" border="0"></td>
+
+       </tr>
+
+       <tr>
+
+        <td id="navbox2" bgcolor="#c5c6c8" style="cursor:hand" onClick="window.location='http://www.sfschool.org/admissions/index.shtml'" onMouseOver="this.bgColor='#e1e3e5'" onMouseOut="this.bgColor='#c5c6c8'"><a href="http://www.sfschool.org/admissions/index.shtml">ADMISSIONS</a></td>
+
+       </tr>
+
+       <tr>
+
+        <td id="navbox3">
+
+         <p><a href="preschool.shtml">Preschool &amp; Kindergarten</a></p>
+
+         <p>Elementary School</p>
+
+         <p><a href="middle.shtml">Middle School</a></p>
+
+         <p><a href="calendar.shtml">Calendar</a></p>
+
+         <p><a href="index_tuition.shtml">Indexed Tuition</a></p>
+
+         <p><a href="faq.shtml">FAQ</a></p>
+
+         <p><a href="school_profile.shtml">School Profile</a></p></td>
+
+       </tr>
+
+       <tr height="1">
+
+        <td bgcolor="white" height="1"><img src="../images/shared/spacer.gif" alt="" height="1" width="1" border="0"></td>
+
+       </tr>
+
+       <tr>
+
+        <td id="navbox2" bgcolor="#c5c6c8" style="cursor:hand" onClick="window.location='http://www.sfschool.org/about/index.shtml'" onMouseOver="this.bgColor='#e1e3e5'" onMouseOut="this.bgColor='#c5c6c8'"><a href="http://www.sfschool.org/about/index.shtml">ABOUT SFS</a></td>
+
+       </tr>
+
+       <tr height="1">
+
+        <td bgcolor="white" height="1"><img src="../images/shared/spacer.gif" alt="" height="1" width="1" border="0"></td>
+
+       </tr>
+
+       <tr>
+
+        <td id="navbox2" bgcolor="#c5c6c8" style="cursor:hand" onClick="window.location='http://www.sfschool.org/giving/index.shtml'" onMouseOver="this.bgColor='#e1e3e5'" onMouseOut="this.bgColor='#c5c6c8'"><a href="http://www.sfschool.org/giving/index.shtml">GIVING</a></td>
+
+       </tr>
+
+       <tr height="1">
+
+        <td bgcolor="white" height="1"><img src="../images/shared/spacer.gif" alt="" height="1" width="1" border="0"></td>
+
+       </tr>
+
+       <tr>
+
+        <td id="navbox2" bgcolor="#c5c6c8" style="cursor:hand" onClick="window.location='http://www.sfschool.org/life/index.shtml'" onMouseOver="this.bgColor='#e1e3e5'" onMouseOut="this.bgColor='#c5c6c8'"><a href="http://www.sfschool.org/life/index.shtml">LIFE AT SFS</a></td>
+
+       </tr>
+
+       <tr height="1">
+
+        <td bgcolor="white" height="1"><img src="../images/shared/spacer.gif" alt="" height="1" width="1" border="0"></td>
+
+       </tr>
+
+       <tr>
+
+        <td id="navbox2" bgcolor="#c5c6c8" style="cursor:hand" onClick="window.location='http://www.sfschool.org/contact/index.shtml'" onMouseOver="this.bgColor='#e1e3e5'" onMouseOut="this.bgColor='#c5c6c8'"><a href="http://www.sfschool.org/contact/index.shtml">CONTACT</a></td>
+
+       </tr>
+
+      </table>
+
+     </td>
+
+     <td class="noprint" height="25"><img src="../images/shared/spacer.gif" alt="" height="1" width="427" border="0"></td>
+
+    </tr>
+
+    <tr>
+
+     <td id="content" valign="top">
+
+     <div id="sidebox">
+
+	 <?php 	 require ('admissions-office.php');?>
+	 
+	 <table border="0" cellspacing="0" cellpadding="0">
+
+        <tr height="32">
+
+         <td id="linkboxhead" class="noprint" valign="bottom" bgcolor="#770632" width="188" height="32">APPLYING TO SFS </td>
+
+        </tr>
+
+        <tr>
+
+         <td id="linkbox" bgcolor="#f9f3d9" width="188">
+
+           <!--<p>Registration for 2013-2014 open houses will be available in late-September.  Please check back.</p>-->
+
+           <p><a href="/admissions/apply/index.php">Online Application</a>
+
+           </p>
+
+           </td>
+
+        </tr>
+
+        <tr height="7">
+
+         <td width="188" height="7"><img src="../images/shared/spacer.gif" alt="" height="1" width="188" border="0"></td>
+
+        </tr>
+
+        
+
+       </table><table border="0" cellspacing="0" cellpadding="0">
+
+        <tr height="32">
+
+         <td id="linkboxhead" class="noprint" valign="bottom" bgcolor="#238399" width="188" height="32">ADDITIONAL INFO </td>
+
+        </tr>
+
+        <tr>
+
+         <td id="linkbox" bgcolor="#95D9E8" width="188"><p><a href="../about/vision.shtml">Vision & Philosophy</a></p>
+
+           <p><a href="http://issuu.com/thesanfranciscoschool/docs/sfs_brochure_2012_final_issuu" target="_blank">Admissions Brochure</a></p>
+
+           <p><a href="../life/high_school_placement.shtml">High School Placement</a></p>
+
+          
+
+           <p><a href="../about/podcasts.shtml">Podcasts</a></p>
+
+           <p><a href="../about/tour.shtml">Campus Map</a></p></td>
+
+        </tr>
+
+        <tr height="7">
+
+         <td width="188" height="7"><img src="../images/shared/spacer.gif" alt="" height="1" width="188" border="0"></td>
+
+        </tr>
+
+        <tr>
+
+         <td width="188"><img src="../images/photos/admission-elem-body.jpg" alt="Elementary" width="188" height="207"></td>
+
+        </tr>
+
+       </table>
+
+      </div>
+
+	  
+	  
+	 
+<?php
+
+// API Setup parameters
+$gatewayURL = 'https://secure.networkmerchants.com/api/v2/three-step';
+
+$APIKey = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'; // test key
+
+
+// If there is no POST data or a token-id, print the initial shopping cart form to get ready for Step One.
+if (empty($_POST['DO_STEP_1']) && empty($_GET['token-id'])) {
+
+    print '  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">';
+    print '
+    <html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Collect non-sensitive Customer Info </title>
+      </head>
+      <body>
+      <p><h2>Step One: Enter Billing Information.<br /></h2></p>
+
+      <h4> Billing Details</h4>
+
+        <form action="" method="post" onsubmit="return validate_frm();">
+          <table>
+          <tr><td>First Name </td><td><input type="text" id="firstname" name="billing-address-first-name"></td></tr>
+          <tr><td>Last Name </td><td><input type="text" id="lastname" name="billing-address-last-name"></td></tr>
+          <tr><td>Address </td><td><input type="text" id="address" name="billing-address-address1"></td></tr>
+          <tr><td>City </td><td><input type="text" id="city" name="billing-address-city"></td></tr>
+          <tr><td>State </td><td><input type="text" id="state" name="billing-address-state"></td></tr>
+          <tr><td>Zip/Postal </td><td><input type="text" id="zip" name="billing-address-zip"></td></tr>
+          <tr><td>Phone Number </td><td><input type="text" id="phone" name="billing-address-phone"></td></tr>
+          <tr><td>Email Address </td><td><input type="text" id="email" name="billing-address-email"></td></tr>
+
+          <tr><td colspan="2"> </td></tr>
+          <tr><td colspan="2" align=center>Total Amount $90.00 </td></tr>
+          <tr><td colspan="2" align=center><input type="submit" value="Submit Step One"><input type="hidden" name ="DO_STEP_1" value="true"></td></tr>
+          </table>
+
+        </form>
+      </body>
+    </html>
+
+    ';
+}else if (!empty($_POST['DO_STEP_1'])) {
+
+    // Initiate Step One: Now that we've collected the non-sensitive payment information, we can combine other order information and build the XML format.
+    $xmlRequest = new DOMDocument('1.0','UTF-8');
+
+    $xmlRequest->formatOutput = true;
+    $xmlSale = $xmlRequest->createElement('sale');
+
+    // Amount, authentication, and Redirect-URL are typically the bare minimum.
+    appendXmlNode($xmlSale,'api-key',$APIKey);
+    appendXmlNode($xmlSale,'redirect-url',$_SERVER['HTTP_REFERER']);
+    appendXmlNode($xmlSale, 'amount', '90.00');
+    appendXmlNode($xmlSale, 'ip-address', $_SERVER["REMOTE_ADDR"]);
+    //appendXmlNode($xmlSale, 'processor-id' , 'processor-a');
+    appendXmlNode($xmlSale, 'currency', 'USD');
+    appendXmlNode($xmlSale, 'dup-seconds' , '2');
+
+    // Some additonal fields may have been previously decided by user
+    //appendXmlNode($xmlSale, 'order-id', '1234');
+    appendXmlNode($xmlSale, 'order-description', 'Admissions');
+    //appendXmlNode($xmlSale, 'merchant-defined-field-1' , 'Red');
+    //appendXmlNode($xmlSale, 'merchant-defined-field-2', 'Medium');
+    appendXmlNode($xmlSale, 'tax-amount' , '0.00');
+    //appendXmlNode($xmlSale, 'shipping-amount' , '0.00');
+
+    /*if(!empty($_POST['customer-vault-id'])) {
+        appendXmlNode($xmlSale, 'customer-vault-id' , $_POST['customer-vault-id']);
+    }else {
+         $xmlAdd = $xmlRequest->createElement('add-customer');
+         appendXmlNode($xmlAdd, 'customer-vault-id' ,411);
+         $xmlSale->appendChild($xmlAdd);
+    }*/
+
+
+    // Set the Billing and Shipping from what was collected on initial shopping cart form
+    $xmlBillingAddress = $xmlRequest->createElement('billing');
+    appendXmlNode($xmlBillingAddress,'first-name', $_POST['billing-address-first-name']);
+    appendXmlNode($xmlBillingAddress,'last-name', $_POST['billing-address-last-name']);
+    appendXmlNode($xmlBillingAddress,'address1', $_POST['billing-address-address1']);
+    appendXmlNode($xmlBillingAddress,'city', $_POST['billing-address-city']);
+    appendXmlNode($xmlBillingAddress,'state', $_POST['billing-address-state']);
+    appendXmlNode($xmlBillingAddress,'postal', $_POST['billing-address-zip']);
+    //billing-address-email
+    appendXmlNode($xmlBillingAddress,'country', $_POST['billing-address-country']);
+    appendXmlNode($xmlBillingAddress,'email', $_POST['billing-address-email']);
+
+    appendXmlNode($xmlBillingAddress,'phone', $_POST['billing-address-phone']);
+    //appendXmlNode($xmlBillingAddress,'company', $_POST['billing-address-company']);
+    appendXmlNode($xmlBillingAddress,'address2', $_POST['billing-address-address2']);
+    //appendXmlNode($xmlBillingAddress,'fax', $_POST['billing-address-fax']);
+    $xmlSale->appendChild($xmlBillingAddress);
+
+    $xmlRequest->appendChild($xmlSale);
+
+    // Process Step One: Submit all transaction details to the Payment Gateway except the customer's sensitive payment information.
+    // The Payment Gateway will return a variable form-url.
+    $data = sendXMLviaCurl($xmlRequest,$gatewayURL);
+
+    // Parse Step One's XML response
+    $gwResponse = @new SimpleXMLElement($data);
+    if ((string)$gwResponse->result ==1 ) {
+        // The form url for used in Step Two below
+        $formURL = $gwResponse->{'form-url'};
+    } else {
+        throw New Exception(print " Error, received " . $data);
+    }
+
+    // Initiate Step Two: Create an HTML form that collects the customer's sensitive payment information
+    // and use the form-url that the Payment Gateway returns as the submit action in that form.
+    print '  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">';
+
+
+    print '
+
+        <html>
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+            <title>Collect sensitive Customer Info </title>
+        </head>
+        <body>';
+    // Uncomment the line below if you would like to print Step One's response
+    //print '<pre>' . (htmlentities($data)) . '</pre>';
+    print '
+        <p><h2>Step Two: Enter Credit Card Information<br /></h2></p>
+
+        <form action="'.$formURL. '" method="POST" onsubmit="return validate_frm2();">
+        <h3> Payment Information</h3>
+            <table>
+                <tr><td>Credit Card Number</td><td><INPUT type="text" id="cardnum" name="billing-cc-number" > </td></tr>
+                <tr><td>Expiration Date</td><td><INPUT type="text" id="cardexp" name="billing-cc-exp" > mmyy</td></tr>
+                <tr><td>CVV</td><td><INPUT type="text" id="cvv" name="cvv" > </td></tr>
+				<tr><td>Total Charge</td><td>$90.00</td></tr>
+                <tr><Td colspan="2" align=center><INPUT type="submit" value="Submit Step Two - Click Only Once"></td> </tr>
+            </table>
+        </form>
+        </body>
+        </html>
+        ';
+
+} elseif (!empty($_GET['token-id'])) {
+
+    // Step Three: Once the browser has been redirected, we can obtain the token-id and complete
+    // the transaction through another XML HTTPS POST including the token-id which abstracts the
+    // sensitive payment information that was previously collected by the Payment Gateway.
+    $tokenId = $_GET['token-id'];
+    $xmlRequest = new DOMDocument('1.0','UTF-8');
+    $xmlRequest->formatOutput = true;
+    $xmlCompleteTransaction = $xmlRequest->createElement('complete-action');
+    appendXmlNode($xmlCompleteTransaction,'api-key',$APIKey);
+    appendXmlNode($xmlCompleteTransaction,'token-id',$tokenId);
+    $xmlRequest->appendChild($xmlCompleteTransaction);
+
+
+    // Process Step Three
+    $data = sendXMLviaCurl($xmlRequest,$gatewayURL);
+
+
+    $gwResponse = @new SimpleXMLElement((string)$data);
+    print '  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">';
+    print '
+    <html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Step Three - Complete Transaction</title>
+      </head>
+      <body>';
+
+    //print "<p><h2>Step Three: Script automatically completes the transaction <br /></h2></p>";
+
+    if ((string)$gwResponse->result == 1 ) {
+        print " <p><h3> Thank you.  The transaction for the admissions application payment was approved</h3></p>\n";
+        //print '<pre>' . (htmlentities($data)) . '</pre>';
+		
+		// parse xml data and send email confirmation
+		
+		echo "Name: " . $gwResponse->billing->{'first-name'} . " " . $gwResponse->billing->{'last-name'} . "<br>";
+		echo "Email: " . $gwResponse->billing->email . "<br>";
+		echo "Amount Charged: " . $gwResponse->amount . "<br>";
+		echo "Credit Card: " . $gwResponse->billing->{'cc-number'} . "<br>";
+		echo "Phone: " . $gwResponse->billing->phone . "<br>";
+		
+		
+        $mailbody  = "Dear " . $gwResponse->billing->{'first-name'} . " " . $gwResponse->billing->{'last-name'} . "\n\n";
+        //$mailbody  .= "Email: " . $gwResponse->billing->email . "\n";
+	    //$mailbody  .= "Amount Charged: " . $gwResponse->amount . "\n\n";
+		$mailbody  .= "This is confirmation that we have received your admissions application payment for $$gwResponse->amount. \n\n Thank you,\n\n The San Francisco School";
+		
+		$mailheader = "From: noreply@sfschool.org\n\n";
+        $subject = "The San Francisco School Application Payment";
+        //$To = "tod_hing@yahoo.com";
+        //$mailforms = mail($To, $subject, $mailbody, $mailheader);
+        $To = $gwResponse->billing->email;
+        $mailforms = mail($To, $subject, $mailbody, $mailheader);  // send message to administrator
+
+    } elseif((string)$gwResponse->result == 2)  {
+        print " <p><h3> Transaction was Declined. If you would like to try again, please <a href='admissions-payment.php'>click here</a> to try again.  Please do not click on back button.</h3>\n";
+        print " Decline Description : " . (string)$gwResponse->{'result-text'} ." </p>";
+        //print " <p><h3>XML response was:</h3></p>\n";
+        //print '<pre>' . (htmlentities($data)) . '</pre>';
+    } else {
+        print " <p><h3> Transaction caused an Error. <br /><br /> If you would like to try again, please <a href='admissions-payment.php'>click here</a> to try again.  Please do not click on back button.</h3>\n";
+        print " Error Description: " . (string)$gwResponse->{'result-text'} ." </p>";
+        //print " <p><h3>XML response was:</h3></p>\n";
+        //print '<pre>' . (htmlentities($data)) . '</pre>';
+    }
+    print "</body></html>";
+
+
+
+} else {
+  print "ERROR IN SCRIPT<BR>";
+}
+
+
+  function sendXMLviaCurl($xmlRequest,$gatewayURL) {
+   // helper function demonstrating how to send the xml with curl
+
+
+    $ch = curl_init(); // Initialize curl handle
+    curl_setopt($ch, CURLOPT_URL, $gatewayURL); // Set POST URL
+
+    $headers = array();
+    $headers[] = "Content-type: text/xml";
+    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers); // Add http headers to let it know we're sending XML
+    $xmlString = $xmlRequest->saveXML();
+    curl_setopt($ch, CURLOPT_FAILONERROR, 1); // Fail on errors
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1); // Allow redirects
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); // Return into a variable
+    curl_setopt($ch, CURLOPT_PORT, 443); // Set the port number
+    curl_setopt($ch, CURLOPT_TIMEOUT, 15); // Times out after 15s
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $xmlString); // Add XML directly in POST
+
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 2);
+
+
+    // This should be unset in production use. With it on, it forces the ssl cert to be valid
+    // before sending info.
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+
+    if (!($data = curl_exec($ch))) {
+        print  "curl error =>" .curl_error($ch) ."\n";
+        throw New Exception(" CURL ERROR :" . curl_error($ch));
+
+    }
+    curl_close($ch);
+
+    return $data;
+  }
+
+  // Helper function to make building xml dom easier
+  function appendXmlNode($parentNode,$name, $value) {
+        $tempNode = new DOMElement($name,$value);
+        $parentNode->appendChild($tempNode);
+  }
+  
+ ?>
+
+  </td>
+
+    </tr>
+
+    <tr height="40">
+
+     <td height="40"><img src="../images/shared/spacer.gif" alt="" height="1" width="1" border="0"></td>
+
+    </tr>
+
+    <tr height="1">
+
+     <td class="noprint" bgcolor="#f9f3d9" width="184" height="1"><img src="../images/shared/spacer.gif" alt="" height="1" width="184" border="0"></td>
+
+     <td height="1"><img src="../images/shared/spacer.gif" alt="" height="1" width="615" border="0"></td>
+
+    </tr>
+
+   </table>
+   
+  <?php require ('../include/footer.php');?>
+
+  </div>
+
+ </body>
+
+
+
+</html>
+

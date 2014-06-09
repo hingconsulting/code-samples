@@ -1,0 +1,77 @@
+<?php 
+
+// xml reader utility
+
+//open database
+include_once("../forms/functions/open_database.php");
+
+
+function xmlFileReader($filename)
+{
+ global $ta_fund_num, $State_Street_num, $basis, $fund_name, $pricing_date, $offer, $nav, $prior_day_nav, $nav_change, $percent_change_in_nav, $net;
+
+ $reader = new XMLReader();
+ if ($reader->open($filename))
+ {
+
+
+  while ($reader->read()) {
+
+  
+
+  switch ($reader->nodeType) { 
+   case (XMLREADER::ELEMENT): 
+
+
+   if ($reader->name == "ta_fund_num") 
+     { 
+       $reader->read(); 
+       $ta_fund_num = trim($reader->value); 
+       echo "$ta_fund_num<br>"; 
+       break; 
+     } 
+
+   elseif ($reader->name == "State_Street_num") 
+     { 
+       $reader->read(); 
+       $State_Street_num = trim($reader->value); 
+       echo "$State_Street_num<br>"; 
+       break; 
+     } 
+
+   elseif ($reader->name == "basis") 
+     { 
+       $reader->read(); 
+       $basis = trim($reader->value); 
+       echo "$basis<br>"; 
+       break; 
+     } 
+
+ 
+ break;
+
+ case (XMLREADER::END_ELEMENT):
+    if ($reader->name == "rate") 
+      { 
+	     // copy most recent rows into chart table and chart_history table
+		 echo "do insert to DB<br>";
+	     insertDB();
+         break; 
+      } 
+     break;
+
+  } //switch
+
+  
+ }  //while
+ return TRUE;
+ 
+ } // file exist
+ else
+ {
+   return FALSE;
+ }
+} // function xmlFileReader
+
+
+?>
